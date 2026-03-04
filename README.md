@@ -10,8 +10,8 @@ Also I am using HyTechAI repo and added my modification, If you need it feel fre
 
 ## Installation
 ```sh
-git clone https://github.com/fitri-hy/react-chatgpt-openai.git
-cd react-chatgpt-openai
+git clone https://github.com/sherksiva/Open-Api-Chat-Bot
+cd Open-Api-Chat-Bot
 npm install
 
 ```
