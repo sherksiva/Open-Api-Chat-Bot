@@ -11,7 +11,7 @@ Also I am using HyTechAI repo and added my modification, If you need it feel fre
 ## Installation
 ```sh
 git clone https://github.com/sherksiva/Open-Api-Chat-Bot
-cd Open-Api-Chat-Bot
+cd Open-AI-Chat-Bot
 npm install
 
 ```
