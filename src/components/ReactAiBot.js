@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import ReactMarkdown from 'react-markdown';
 import './style.css';
 
-function HyTechAi({
+function ReactAiBot({
 		apiKey = "Your Api KEY",
 		aiModel = "gpt-3.5-turbo",
-		aiPrompt = "You are Hytech-AI developed by Hy-Tech Group",
+		aiPrompt = "This is sivaprakash's Machine developed by using Hy-Tech Group",
 		aiName = "Siva's Machine",
 		aiMessage = "Hello, I'm Siva's Machine, Ask me anything!",
 		senderName = "You",
@@ -91,9 +91,9 @@ function HyTechAi({
       <div className="base-container">
         {messages.map((message, index) => (
           <div ref={listRef} key={index} className={`message-container ${message.sender}`}>
-			<div className={message.sender === senderName ? "user" : "HytechAI"}>
-			  <p className={message.sender === senderName ? "sender-HytechAI" : "sender-user"}>{message.sender}</p>
-			  <div className={message.sender === senderName ? "message-box-user" : "message-box-HytechAI"}>
+			<div className={message.sender === senderName ? "user" : "Siva's Machine"}>
+			  <p className={message.sender === senderName ? "sender-Siva's Machine" : "sender-user"}>{message.sender}</p>
+			  <div className={message.sender === senderName ? "message-box-user" : "message-box-Siva's Machine"}>
 				<ReactMarkdown>{message.message}</ReactMarkdown>
 			  </div>
 			</div>
@@ -115,4 +115,4 @@ function HyTechAi({
     </>
   );
 }
-export default HyTechAi;
+export default ReactAiBot;

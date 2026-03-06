@@ -5,7 +5,7 @@ You can check for your reference.
 
 <img src="https://github.com/sherksiva/sherksiva.github.io/blob/master/assets/sample_screenshot.png" />
 
-Also I am using HyTechAI repo and added my modification, If you need it feel free to clone it and use it.
+If you need it feel free to clone it and use it.
 
 ## Installation
 ```sh
