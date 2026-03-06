@@ -22,22 +22,22 @@ Go to the `src` folder and copy the `components` folder and its contents to your
 **Impport components**
 
 ```sh
-import HyTechAi from './components/HyTechAI';
+import ReactAiBot from './components/ReactAiBot';
 ```
 **Call Component**
 
 ```sh
-<HyTechAi apiKey="your apiKey" />
+<ReactAiBot apiKey="your apiKey" />
 ```
 **Code Example (App.js)**
 ```
-import HyTechAi from './components/HyTechAI';
+import ReactAiBot from './components/ReactAiBot';
 import './App.css';
 
 function App() {
   return (
     <>
-      <HyTechAi apiKey="your apiKey" />
+      <ReactAiBot apiKey="your apiKey" />
     </>
   );
 }
