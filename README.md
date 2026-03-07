@@ -1,7 +1,7 @@
 # ReactJS Chatbot OpenAI
 
-This simple ReactJS project that I created is an AI Chatbot that uses apiKey from OpenAI.
-You can check for your reference.
+This simple ReactJS project which created with use of OpenAI API.
+For your reference.
 
 <img src="https://github.com/sherksiva/sherksiva.github.io/blob/master/assets/sample_screenshot.png" />
 
@@ -15,16 +15,16 @@ npm install
 
 ```
 
-## Components Only
+## Components
 
 Go to the `src` folder and copy the `components` folder and its contents to your react project.
 
-**Impport components**
+**Import Components**
 
 ```sh
 import ReactAiBot from './components/ReactAiBot';
 ```
-**Call Component**
+**Use like below**
 
 ```sh
 <ReactAiBot apiKey="your apiKey" />
