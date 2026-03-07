@@ -44,17 +44,5 @@ function App() {
 
 export default App;
 ```
-## Customization
-
-| Atribute | Description |
-|:---------|:-----------|
-|apiKey=""|You can get apiKey on the official openAI website: <a href="https://openai.com/">GET API KEY</a>|
-|aiModel=""|Required to use GPT-3 or GPT-4 models: <a href="https://platform.openai.com/docs/models/overview">View Models</a>|
-|aiPrompt=""|You can give commands to your bot|
-|aiName=""|Change your bot name|
-|aiMessage=""|Greet the user before asking a question|
-|senderName=""|Change user name|
-|typingLoad=""|Changing text Bot is typing...|
-|buttonText=""|Change the submit button text|
 
 
