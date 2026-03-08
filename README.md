@@ -3,7 +3,11 @@
 This simple ReactJS project which created with use of OpenAI API.
 For your reference.
 
-<img src="https://github.com/sherksiva/sherksiva.github.io/blob/master/assets/sample_screenshot.png" />
+<img src="https://github.com/sherksiva/sherksiva.github.io/blob/master/assets/sample_screenshot.png" alt="Chat box image" />
+
+If you getting access error, you can find out below screenshot.
+
+<img src="https://github.com/sherksiva/sherksiva.github.io/blob/master/assets/access_error.png" alt="Reference image error" />
 
 If you need it feel free to clone it and use it.
 
